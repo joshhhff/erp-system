@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.nav-account:hover {
+  background-color: lightgrey;
+}
+
+.app-bar li:hover {
+    background-color: grey;
+}
+
+.app-bar li li:hover {
+    background-color: lightgrey
+}
+
+.nav-account li:hover:not(.ignore-hover) {
+    background-color: rgb(232, 229, 229);
+}
